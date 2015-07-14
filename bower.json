@@ -1,6 +1,7 @@
 {
   "name": "mfly-commands",
   "version": "1.5.1",
+  "main": "src/mflyCommands.js",
   "authors": [
       "nachiket mehta <nmehta@mediafly.com>",
       "jason shah <jshah@mediafly.com>"
