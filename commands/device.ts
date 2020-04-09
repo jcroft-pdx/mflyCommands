@@ -19,7 +19,7 @@ export function isWindows8() {
 }
 
 export function isLocalhostForDevelopment () {
-	if (window) {
+	if (typeof window === "object") {
 		return (window.location.host.indexOf('localhost:8000') > -1);
 	} else {
 		return false;
