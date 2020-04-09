@@ -217,7 +217,7 @@ function isWindows8() {
 }
 exports.isWindows8 = isWindows8;
 function isLocalhostForDevelopment() {
-    return (window.location.host.indexOf('localhost:8000') > -1);
+    return (window && window.location.host.indexOf('localhost:8000') > -1 || false);
 }
 exports.isLocalhostForDevelopment = isLocalhostForDevelopment;
 function getDeviceType() {
