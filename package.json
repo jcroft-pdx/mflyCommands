@@ -33,7 +33,8 @@
     "Interactives"
   ],
   "dependencies": {
-    "jquery": "3.4.0"
+    "jquery": "3.4.0",
+    "tslint": "^6.1.1"
   },
   "devDependencies": {
     "@types/jquery": "3.3.1",

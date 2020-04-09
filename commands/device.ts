@@ -19,7 +19,7 @@ export function isWindows8() {
 }
 
 export function isLocalhostForDevelopment () {
-	return (window.location.host.indexOf('localhost:8000') > -1)
+	return (window && window.location.host.indexOf('localhost:8000') > -1 || false)
 }
 
 export function getDeviceType() {
